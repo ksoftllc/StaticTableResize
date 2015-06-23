@@ -10,4 +10,7 @@
 
 @interface TableViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *lastTextView;
+@property (weak, nonatomic) IBOutlet UITextView *firstTextView;
+
 @end
