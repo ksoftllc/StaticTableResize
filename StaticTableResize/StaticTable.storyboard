@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Rrd-bf-cBe">
     <dependencies>
-<<<<<<< HEAD
-=======
-        <deployment identifier="iOS"/>
->>>>>>> origin/master
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -20,166 +16,131 @@
                         <sections>
                             <tableViewSection id="shI-Hc-uy4">
                                 <cells>
-<<<<<<< HEAD
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hyp-Tw-95M" customClass="CMTableViewCell">
-=======
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="hyp-Tw-95M">
->>>>>>> origin/master
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hyp-Tw-95M" id="35q-rz-xMM">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4w-V5-ffF">
-<<<<<<< HEAD
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </mutableString>
-=======
                                                     <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
->>>>>>> origin/master
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-<<<<<<< HEAD
-                                                <constraint firstItem="G4w-V5-ffF" firstAttribute="leading" secondItem="35q-rz-xMM" secondAttribute="leadingMargin" constant="10" id="Pgd-dI-qo4"/>
-=======
                                                 <constraint firstItem="G4w-V5-ffF" firstAttribute="leading" secondItem="35q-rz-xMM" secondAttribute="leadingMargin" id="Pgd-dI-qo4"/>
->>>>>>> origin/master
                                                 <constraint firstItem="G4w-V5-ffF" firstAttribute="top" secondItem="35q-rz-xMM" secondAttribute="topMargin" id="Qtd-Xc-FCb"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="G4w-V5-ffF" secondAttribute="trailing" id="bgd-Op-fPG"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="G4w-V5-ffF" secondAttribute="bottom" id="f8s-ez-oYw"/>
                                             </constraints>
                                         </tableViewCellContentView>
-<<<<<<< HEAD
-                                        <connections>
-                                            <outlet property="textView" destination="G4w-V5-ffF" id="8wr-mU-61S"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NeZ-2f-Dbw" customClass="CMTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="kvX-Gy-JqA">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NeZ-2f-Dbw" id="zML-gY-hnK">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kvX-Gy-JqA" id="XVY-Zc-6GO">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XjJ-dj-W8x">
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTD-Q8-G6O">
+                                                    <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="XjJ-dj-W8x" secondAttribute="bottom" id="8Sd-sj-PDa"/>
-                                                <constraint firstItem="XjJ-dj-W8x" firstAttribute="top" secondItem="zML-gY-hnK" secondAttribute="topMargin" id="Db3-Xn-qAZ"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="XjJ-dj-W8x" secondAttribute="trailing" id="rY1-3s-eva"/>
-                                                <constraint firstItem="XjJ-dj-W8x" firstAttribute="leading" secondItem="zML-gY-hnK" secondAttribute="leadingMargin" constant="10" id="upW-Rh-Oc5"/>
+                                                <constraint firstItem="ZTD-Q8-G6O" firstAttribute="leading" secondItem="XVY-Zc-6GO" secondAttribute="leadingMargin" id="GGE-Ck-8KM"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="ZTD-Q8-G6O" secondAttribute="trailing" id="ft3-VT-vji"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ZTD-Q8-G6O" secondAttribute="bottom" id="p90-F2-rlm"/>
+                                                <constraint firstItem="ZTD-Q8-G6O" firstAttribute="top" secondItem="XVY-Zc-6GO" secondAttribute="topMargin" id="pkF-3V-2mw"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textView" destination="XjJ-dj-W8x" id="O2x-Gm-MFT"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="S6p-db-eyi" customClass="CMTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="uYl-SQ-1dl">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S6p-db-eyi" id="SDy-Vf-VQ3">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uYl-SQ-1dl" id="NWi-on-vDE">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITz-Lq-HTl">
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLh-gy-k8l">
+                                                    <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ITz-Lq-HTl" firstAttribute="leading" secondItem="SDy-Vf-VQ3" secondAttribute="leadingMargin" constant="10" id="RRJ-7G-7dE"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="ITz-Lq-HTl" secondAttribute="bottom" id="iPB-D0-0BT"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ITz-Lq-HTl" secondAttribute="trailing" id="kBF-y6-GVg"/>
-                                                <constraint firstItem="ITz-Lq-HTl" firstAttribute="top" secondItem="SDy-Vf-VQ3" secondAttribute="topMargin" id="r3x-Fi-4Ir"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gLh-gy-k8l" secondAttribute="bottom" id="Xnc-c7-fAu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="gLh-gy-k8l" secondAttribute="trailing" id="XpO-fG-ySP"/>
+                                                <constraint firstItem="gLh-gy-k8l" firstAttribute="leading" secondItem="NWi-on-vDE" secondAttribute="leadingMargin" id="jeS-Wy-v0R"/>
+                                                <constraint firstItem="gLh-gy-k8l" firstAttribute="top" secondItem="NWi-on-vDE" secondAttribute="topMargin" id="rd3-Oe-4bR"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textView" destination="ITz-Lq-HTl" id="A4R-jQ-gVb"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HNu-gt-hk3" customClass="CMTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="CaD-VH-nzj">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HNu-gt-hk3" id="YxB-JD-odG">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CaD-VH-nzj" id="BR2-Te-cVs">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-gt-52R">
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8B-z9-Uym">
+                                                    <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="zBc-gt-52R" firstAttribute="leading" secondItem="YxB-JD-odG" secondAttribute="leadingMargin" constant="10" id="7yv-NV-fl7"/>
-                                                <constraint firstItem="zBc-gt-52R" firstAttribute="top" secondItem="YxB-JD-odG" secondAttribute="topMargin" id="FHj-Rp-OER"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="zBc-gt-52R" secondAttribute="bottom" id="VgY-Nk-xcp"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="zBc-gt-52R" secondAttribute="trailing" id="lXf-Yo-f67"/>
+                                                <constraint firstItem="o8B-z9-Uym" firstAttribute="leading" secondItem="BR2-Te-cVs" secondAttribute="leadingMargin" id="Brz-9c-ELB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="o8B-z9-Uym" secondAttribute="bottom" id="SNJ-H9-Kh6"/>
+                                                <constraint firstItem="o8B-z9-Uym" firstAttribute="top" secondItem="BR2-Te-cVs" secondAttribute="topMargin" id="jnk-bY-IAN"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="o8B-z9-Uym" secondAttribute="trailing" id="xaK-b5-f3Y"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textView" destination="zBc-gt-52R" id="o1A-yI-yJU"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jVx-8c-q5x" customClass="CMTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="MJn-w5-bDm">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jVx-8c-q5x" id="IWY-Jm-cjL">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MJn-w5-bDm" id="ifQ-hN-2yE">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fb-hT-Kkm">
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05B-jT-9By">
+                                                    <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="7Fb-hT-Kkm" firstAttribute="top" secondItem="IWY-Jm-cjL" secondAttribute="topMargin" id="8z2-Ve-jF3"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="7Fb-hT-Kkm" secondAttribute="trailing" id="EAR-7J-Ivv"/>
-                                                <constraint firstItem="7Fb-hT-Kkm" firstAttribute="leading" secondItem="IWY-Jm-cjL" secondAttribute="leadingMargin" constant="10" id="EwB-xK-k1a"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="7Fb-hT-Kkm" secondAttribute="bottom" id="fT8-xg-jgo"/>
+                                                <constraint firstItem="05B-jT-9By" firstAttribute="top" secondItem="ifQ-hN-2yE" secondAttribute="topMargin" id="8h5-qC-Sy6"/>
+                                                <constraint firstItem="05B-jT-9By" firstAttribute="leading" secondItem="ifQ-hN-2yE" secondAttribute="leadingMargin" id="AmB-fP-nip"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="05B-jT-9By" secondAttribute="trailing" id="FBg-9b-Qe1"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="05B-jT-9By" secondAttribute="bottom" id="Wfm-M0-vgg"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textView" destination="7Fb-hT-Kkm" id="ia1-rl-fiU"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hVF-0S-ru9" customClass="CMTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="1bS-hY-1yk">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hVF-0S-ru9" id="Zi8-ls-Xbs">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1bS-hY-1yk" id="UeA-V8-HCQ">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5J-Pj-ZbD">
-                                                    <rect key="frame" x="18" y="8" width="574" height="176"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="did-hJ-b14">
+                                                    <rect key="frame" x="8" y="8" width="551" height="176"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="X5J-Pj-ZbD" firstAttribute="leading" secondItem="Zi8-ls-Xbs" secondAttribute="leadingMargin" constant="10" id="5r8-XC-DCc"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="X5J-Pj-ZbD" secondAttribute="bottom" id="BmN-rO-BDB"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="X5J-Pj-ZbD" secondAttribute="trailing" id="ucq-oh-EOw"/>
-                                                <constraint firstItem="X5J-Pj-ZbD" firstAttribute="top" secondItem="Zi8-ls-Xbs" secondAttribute="topMargin" id="yAt-9a-3NQ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="did-hJ-b14" secondAttribute="bottom" id="gYV-XR-Fcj"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="did-hJ-b14" secondAttribute="trailing" id="kEC-bI-C3X"/>
+                                                <constraint firstItem="did-hJ-b14" firstAttribute="leading" secondItem="UeA-V8-HCQ" secondAttribute="leadingMargin" id="loZ-tH-wNb"/>
+                                                <constraint firstItem="did-hJ-b14" firstAttribute="top" secondItem="UeA-V8-HCQ" secondAttribute="topMargin" id="lpY-tc-27a"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textView" destination="X5J-Pj-ZbD" id="V13-ro-n2I"/>
-                                        </connections>
-=======
->>>>>>> origin/master
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -190,13 +151,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="4Fa-j9-8db"/>
-<<<<<<< HEAD
                     <connections>
-                        <outlet property="firstTextView" destination="G4w-V5-ffF" id="nfv-t1-rnL"/>
-                        <outlet property="lastTextView" destination="X5J-Pj-ZbD" id="QvT-jf-zhe"/>
+                        <outlet property="firstTextView" destination="G4w-V5-ffF" id="qN2-Od-eTv"/>
+                        <outlet property="lastTextView" destination="did-hJ-b14" id="scA-7u-Nyx"/>
                     </connections>
-=======
->>>>>>> origin/master
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwM-N9-svW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
