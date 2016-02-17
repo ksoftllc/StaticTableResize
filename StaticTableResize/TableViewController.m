@@ -12,14 +12,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.tableView.estimatedRowHeight = 100.0f;
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    
+
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-    
-    [self.tableView beginUpdates];
-    [self.tableView endUpdates];
 }
 
 #pragma mark - Table view data source
@@ -36,4 +30,13 @@
     return [super tableView:tableView cellForRowAtIndexPath:indexPath];
 }
 
+-(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100.0f;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewAutomaticDimension;
+}
 @end
